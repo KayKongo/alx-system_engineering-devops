@@ -1,2 +1,2 @@
 #!/bin/bash
-paste -sd "" <<< "$(tr -d '\n' < <(paste -sd "\0" -))"
+cut -c1 | tr -d '\n'
