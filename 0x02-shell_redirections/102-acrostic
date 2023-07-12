@@ -1,3 +1,2 @@
 #!/bin/bash
 paste -sd "" <<< "$(tr -d '\n' < <(paste -sd "\0" -))"
-
